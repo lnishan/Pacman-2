@@ -86,7 +86,7 @@ class ReflexAgent(Agent):
         score += currentGameState.hasFood(newPos[0], newPos[1]) * baseScores[0]
         foodList = successorGameState.getFood().asList()
         for food in foodList:
-            score += baseScores[0] * math.exp(-1.0 * decayFacts[0] * util.manhattanDistance(newPos, food))
+            score -= baseScores[0] * (1 - math.exp(-1.0 * decayFacts[0] * util.manhattanDistance(newPos, food)))
 
         capsuleListOri = currentGameState.data.capsules
         for capsule in capsuleListOri:
@@ -104,6 +104,9 @@ class ReflexAgent(Agent):
             score += baseScores[2]
         else:
             score += baseScores[2] * math.exp(-1.0 * decayFacts[2] * util.manhattanDistance(newPos, newGhostPos))
+
+        if util.manhattanDistance(newPos, newGhostPos) < 2:
+            score -= 1e6
 
 
         if action == Directions.STOP:
