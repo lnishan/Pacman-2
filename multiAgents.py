@@ -150,6 +150,27 @@ class MinimaxAgent(MultiAgentSearchAgent):
       Your minimax agent (question 2)
     """
 
+    def minimax(self, state, depth, agent = 0, maximizing = True):
+        if depth == 0 or state.isWin() or state.isLose():
+            return self.evaluationFunction(state), Directions.STOP
+        actions = state.getLegalActions(agent)
+        if maximizing:
+            scores = [self.minimax(state.generateSuccessor(agent, action), depth - 1, 1, False)[0] for action in actions]
+            bestScore = max(scores)
+            bestIndices = [i for i in range(len(scores)) if scores[i] == bestScore]
+            return bestScore, actions[random.choice(bestIndices)]
+        else:
+            scores = []
+            if agent == state.getNumAgents() - 1: # last ghost
+                scores = [self.minimax(state.generateSuccessor(agent, action), depth - 1, 0, True)[0] for action in actions]
+            else:
+                scores = [self.minimax(state.generateSuccessor(agent, action), depth, agent + 1, False)[0] for action in actions]
+            bestScore = min(scores)
+            bestIndices = [i for i in range(len(scores)) if scores[i] == bestScore]
+            return bestScore, actions[random.choice(bestIndices)]
+
+
+
     def getAction(self, gameState):
         """
           Returns the minimax action from the current gameState using self.depth
@@ -169,7 +190,9 @@ class MinimaxAgent(MultiAgentSearchAgent):
         """
         
         "[Project 3] YOUR CODE HERE"        
-        
+
+        return self.minimax(gameState, self.depth * 2, 0, True)[1]
+
         util.raiseNotDefined()
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
