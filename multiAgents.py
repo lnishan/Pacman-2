@@ -200,13 +200,57 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
       Your minimax agent with alpha-beta pruning (question 3)
     """
 
+    def minimax(self, state, depth, a, b, agent = 0, maximizing = True):
+        if depth == 0 or state.isWin() or state.isLose():
+            return self.evaluationFunction(state), Directions.STOP
+        actions = state.getLegalActions(agent)
+        if maximizing:
+            bestScore = -1e100
+            bestActions = []
+            for action in actions:
+                score = self.minimax(state.generateSuccessor(agent, action), depth - 1, a, b, 1, False)[0]
+                a = max(a, score)
+                if score > bestScore:
+                    bestScore = score
+                    bestActions = [action]
+                elif score == bestScore:
+                    bestActions.append(action)
+                if bestScore > b: break
+            return bestScore, random.choice(bestActions)
+        else:
+            bestScore = 1e100
+            bestActions = []
+            if agent == state.getNumAgents() - 1: # last ghost
+                for action in actions:
+                    score = self.minimax(state.generateSuccessor(agent, action), depth - 1, a, b, 0, True)[0]
+                    b = min(b, score)
+                    if score < bestScore:
+                        bestScore = score
+                        bestActions = [action]
+                    elif score == bestScore:
+                        bestActions.append(action)
+                    if a > bestScore: break
+            else:
+                for action in actions:
+                    score = self.minimax(state.generateSuccessor(agent, action), depth, a, b, agent + 1, False)[0]
+                    b = min(b, score)
+                    if score < bestScore:
+                        bestScore = score
+                        bestActions = [action]
+                    elif score == bestScore:
+                        bestActions.append(action)
+                    if a > bestScore: break
+            return bestScore, random.choice(bestActions)
+
     def getAction(self, gameState):
         """
           Returns the minimax action using self.depth and self.evaluationFunction
         """
         
-        "[Project 3] YOUR CODE HERE"        
-        
+        "[Project 3] YOUR CODE HERE"
+
+        return self.minimax(gameState, self.depth * 2, -1e100, 1e100, 0, True)[1]
+
         util.raiseNotDefined()
 
 class ExpectimaxAgent(MultiAgentSearchAgent):
