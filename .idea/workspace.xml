@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da827a13-3e06-4883-b529-9f0a6376d5e3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VERSION" afterPath="$PROJECT_DIR$/VERSION" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autograder.py" afterPath="$PROJECT_DIR$/autograder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.py" afterPath="$PROJECT_DIR$/game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ghostAgents.py" afterPath="$PROJECT_DIR$/ghostAgents.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grading.py" afterPath="$PROJECT_DIR$/grading.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphicsDisplay.py" afterPath="$PROJECT_DIR$/graphicsDisplay.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphicsUtils.py" afterPath="$PROJECT_DIR$/graphicsUtils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keyboardAgents.py" afterPath="$PROJECT_DIR$/keyboardAgents.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout.py" afterPath="$PROJECT_DIR$/layout.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/capsuleClassic.lay" afterPath="$PROJECT_DIR$/layouts/capsuleClassic.lay" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/contestClassic.lay" afterPath="$PROJECT_DIR$/layouts/contestClassic.lay" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/mediumClassic.lay" afterPath="$PROJECT_DIR$/layouts/mediumClassic.lay" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/minimaxClassic.lay" afterPath="$PROJECT_DIR$/layouts/minimaxClassic.lay" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/openClassic.lay" afterPath="$PROJECT_DIR$/layouts/openClassic.lay" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/originalClassic.lay" afterPath="$PROJECT_DIR$/layouts/originalClassic.lay" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/smallClassic.lay" afterPath="$PROJECT_DIR$/layouts/smallClassic.lay" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/testClassic.lay" afterPath="$PROJECT_DIR$/layouts/testClassic.lay" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/trappedClassic.lay" afterPath="$PROJECT_DIR$/layouts/trappedClassic.lay" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/trickyClassic.lay" afterPath="$PROJECT_DIR$/layouts/trickyClassic.lay" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multiAgents.py" afterPath="$PROJECT_DIR$/multiAgents.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multiagentTestClasses.py" afterPath="$PROJECT_DIR$/multiagentTestClasses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pacman.py" afterPath="$PROJECT_DIR$/pacman.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pacmanAgents.py" afterPath="$PROJECT_DIR$/pacmanAgents.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectParams.py" afterPath="$PROJECT_DIR$/projectParams.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testClasses.py" afterPath="$PROJECT_DIR$/testClasses.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testParser.py" afterPath="$PROJECT_DIR$/testParser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/CONFIG" afterPath="$PROJECT_DIR$/test_cases/CONFIG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/extra/CONFIG" afterPath="$PROJECT_DIR$/test_cases/extra/CONFIG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/extra/grade-agent.test" afterPath="$PROJECT_DIR$/test_cases/extra/grade-agent.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q1/CONFIG" afterPath="$PROJECT_DIR$/test_cases/q1/CONFIG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q1/grade-agent.solution" afterPath="$PROJECT_DIR$/test_cases/q1/grade-agent.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q1/grade-agent.test" afterPath="$PROJECT_DIR$/test_cases/q1/grade-agent.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/0-lecture-6-tree.solution" afterPath="$PROJECT_DIR$/test_cases/q2/0-lecture-6-tree.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/0-lecture-6-tree.test" afterPath="$PROJECT_DIR$/test_cases/q2/0-lecture-6-tree.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/0-small-tree.solution" afterPath="$PROJECT_DIR$/test_cases/q2/0-small-tree.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/0-small-tree.test" afterPath="$PROJECT_DIR$/test_cases/q2/0-small-tree.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-1-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q2/1-1-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-1-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q2/1-1-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-2-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q2/1-2-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-2-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q2/1-2-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-3-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q2/1-3-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-3-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q2/1-3-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-4-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q2/1-4-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-4-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q2/1-4-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-5-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q2/1-5-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-5-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q2/1-5-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-6-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q2/1-6-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-6-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q2/1-6-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-7-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q2/1-7-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-7-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q2/1-7-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-8-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q2/1-8-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/1-8-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q2/1-8-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-1a-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q2/2-1a-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-1a-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q2/2-1a-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-1b-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q2/2-1b-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-1b-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q2/2-1b-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-2a-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q2/2-2a-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-2a-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q2/2-2a-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-2b-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q2/2-2b-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-2b-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q2/2-2b-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-3a-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q2/2-3a-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-3a-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q2/2-3a-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-3b-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q2/2-3b-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-3b-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q2/2-3b-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-4a-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q2/2-4a-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-4a-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q2/2-4a-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-4b-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q2/2-4b-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-4b-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q2/2-4b-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-one-ghost-3level.solution" afterPath="$PROJECT_DIR$/test_cases/q2/2-one-ghost-3level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/2-one-ghost-3level.test" afterPath="$PROJECT_DIR$/test_cases/q2/2-one-ghost-3level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/3-one-ghost-4level.solution" afterPath="$PROJECT_DIR$/test_cases/q2/3-one-ghost-4level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/3-one-ghost-4level.test" afterPath="$PROJECT_DIR$/test_cases/q2/3-one-ghost-4level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/4-two-ghosts-3level.solution" afterPath="$PROJECT_DIR$/test_cases/q2/4-two-ghosts-3level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/4-two-ghosts-3level.test" afterPath="$PROJECT_DIR$/test_cases/q2/4-two-ghosts-3level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/5-two-ghosts-4level.solution" afterPath="$PROJECT_DIR$/test_cases/q2/5-two-ghosts-4level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/5-two-ghosts-4level.test" afterPath="$PROJECT_DIR$/test_cases/q2/5-two-ghosts-4level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/6-tied-root.solution" afterPath="$PROJECT_DIR$/test_cases/q2/6-tied-root.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/6-tied-root.test" afterPath="$PROJECT_DIR$/test_cases/q2/6-tied-root.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-1a-check-depth-one-ghost.solution" afterPath="$PROJECT_DIR$/test_cases/q2/7-1a-check-depth-one-ghost.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-1a-check-depth-one-ghost.test" afterPath="$PROJECT_DIR$/test_cases/q2/7-1a-check-depth-one-ghost.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-1b-check-depth-one-ghost.solution" afterPath="$PROJECT_DIR$/test_cases/q2/7-1b-check-depth-one-ghost.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-1b-check-depth-one-ghost.test" afterPath="$PROJECT_DIR$/test_cases/q2/7-1b-check-depth-one-ghost.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-1c-check-depth-one-ghost.solution" afterPath="$PROJECT_DIR$/test_cases/q2/7-1c-check-depth-one-ghost.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-1c-check-depth-one-ghost.test" afterPath="$PROJECT_DIR$/test_cases/q2/7-1c-check-depth-one-ghost.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-2a-check-depth-two-ghosts.solution" afterPath="$PROJECT_DIR$/test_cases/q2/7-2a-check-depth-two-ghosts.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-2a-check-depth-two-ghosts.test" afterPath="$PROJECT_DIR$/test_cases/q2/7-2a-check-depth-two-ghosts.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-2b-check-depth-two-ghosts.solution" afterPath="$PROJECT_DIR$/test_cases/q2/7-2b-check-depth-two-ghosts.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-2b-check-depth-two-ghosts.test" afterPath="$PROJECT_DIR$/test_cases/q2/7-2b-check-depth-two-ghosts.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-2c-check-depth-two-ghosts.solution" afterPath="$PROJECT_DIR$/test_cases/q2/7-2c-check-depth-two-ghosts.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/7-2c-check-depth-two-ghosts.test" afterPath="$PROJECT_DIR$/test_cases/q2/7-2c-check-depth-two-ghosts.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/8-pacman-game.solution" afterPath="$PROJECT_DIR$/test_cases/q2/8-pacman-game.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/8-pacman-game.test" afterPath="$PROJECT_DIR$/test_cases/q2/8-pacman-game.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q2/CONFIG" afterPath="$PROJECT_DIR$/test_cases/q2/CONFIG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/0-lecture-6-tree.solution" afterPath="$PROJECT_DIR$/test_cases/q3/0-lecture-6-tree.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/0-lecture-6-tree.test" afterPath="$PROJECT_DIR$/test_cases/q3/0-lecture-6-tree.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/0-small-tree.solution" afterPath="$PROJECT_DIR$/test_cases/q3/0-small-tree.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/0-small-tree.test" afterPath="$PROJECT_DIR$/test_cases/q3/0-small-tree.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-1-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q3/1-1-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-1-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q3/1-1-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-2-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q3/1-2-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-2-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q3/1-2-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-3-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q3/1-3-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-3-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q3/1-3-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-4-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q3/1-4-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-4-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q3/1-4-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-5-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q3/1-5-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-5-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q3/1-5-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-6-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q3/1-6-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-6-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q3/1-6-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-7-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q3/1-7-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-7-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q3/1-7-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-8-minmax.solution" afterPath="$PROJECT_DIR$/test_cases/q3/1-8-minmax.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/1-8-minmax.test" afterPath="$PROJECT_DIR$/test_cases/q3/1-8-minmax.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-1a-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q3/2-1a-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-1a-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q3/2-1a-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-1b-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q3/2-1b-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-1b-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q3/2-1b-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-2a-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q3/2-2a-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-2a-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q3/2-2a-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-2b-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q3/2-2b-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-2b-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q3/2-2b-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-3a-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q3/2-3a-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-3a-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q3/2-3a-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-3b-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q3/2-3b-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-3b-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q3/2-3b-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-4a-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q3/2-4a-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-4a-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q3/2-4a-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-4b-vary-depth.solution" afterPath="$PROJECT_DIR$/test_cases/q3/2-4b-vary-depth.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-4b-vary-depth.test" afterPath="$PROJECT_DIR$/test_cases/q3/2-4b-vary-depth.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-one-ghost-3level.solution" afterPath="$PROJECT_DIR$/test_cases/q3/2-one-ghost-3level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/2-one-ghost-3level.test" afterPath="$PROJECT_DIR$/test_cases/q3/2-one-ghost-3level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/3-one-ghost-4level.solution" afterPath="$PROJECT_DIR$/test_cases/q3/3-one-ghost-4level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/3-one-ghost-4level.test" afterPath="$PROJECT_DIR$/test_cases/q3/3-one-ghost-4level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/4-two-ghosts-3level.solution" afterPath="$PROJECT_DIR$/test_cases/q3/4-two-ghosts-3level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/4-two-ghosts-3level.test" afterPath="$PROJECT_DIR$/test_cases/q3/4-two-ghosts-3level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/5-two-ghosts-4level.solution" afterPath="$PROJECT_DIR$/test_cases/q3/5-two-ghosts-4level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/5-two-ghosts-4level.test" afterPath="$PROJECT_DIR$/test_cases/q3/5-two-ghosts-4level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/6-tied-root.solution" afterPath="$PROJECT_DIR$/test_cases/q3/6-tied-root.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/6-tied-root.test" afterPath="$PROJECT_DIR$/test_cases/q3/6-tied-root.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-1a-check-depth-one-ghost.solution" afterPath="$PROJECT_DIR$/test_cases/q3/7-1a-check-depth-one-ghost.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-1a-check-depth-one-ghost.test" afterPath="$PROJECT_DIR$/test_cases/q3/7-1a-check-depth-one-ghost.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-1b-check-depth-one-ghost.solution" afterPath="$PROJECT_DIR$/test_cases/q3/7-1b-check-depth-one-ghost.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-1b-check-depth-one-ghost.test" afterPath="$PROJECT_DIR$/test_cases/q3/7-1b-check-depth-one-ghost.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-1c-check-depth-one-ghost.solution" afterPath="$PROJECT_DIR$/test_cases/q3/7-1c-check-depth-one-ghost.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-1c-check-depth-one-ghost.test" afterPath="$PROJECT_DIR$/test_cases/q3/7-1c-check-depth-one-ghost.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-2a-check-depth-two-ghosts.solution" afterPath="$PROJECT_DIR$/test_cases/q3/7-2a-check-depth-two-ghosts.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-2a-check-depth-two-ghosts.test" afterPath="$PROJECT_DIR$/test_cases/q3/7-2a-check-depth-two-ghosts.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-2b-check-depth-two-ghosts.solution" afterPath="$PROJECT_DIR$/test_cases/q3/7-2b-check-depth-two-ghosts.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-2b-check-depth-two-ghosts.test" afterPath="$PROJECT_DIR$/test_cases/q3/7-2b-check-depth-two-ghosts.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-2c-check-depth-two-ghosts.solution" afterPath="$PROJECT_DIR$/test_cases/q3/7-2c-check-depth-two-ghosts.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/7-2c-check-depth-two-ghosts.test" afterPath="$PROJECT_DIR$/test_cases/q3/7-2c-check-depth-two-ghosts.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/8-pacman-game.solution" afterPath="$PROJECT_DIR$/test_cases/q3/8-pacman-game.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/8-pacman-game.test" afterPath="$PROJECT_DIR$/test_cases/q3/8-pacman-game.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q3/CONFIG" afterPath="$PROJECT_DIR$/test_cases/q3/CONFIG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/0-expectimax1.solution" afterPath="$PROJECT_DIR$/test_cases/q4/0-expectimax1.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/0-expectimax1.test" afterPath="$PROJECT_DIR$/test_cases/q4/0-expectimax1.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/1-expectimax2.solution" afterPath="$PROJECT_DIR$/test_cases/q4/1-expectimax2.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/1-expectimax2.test" afterPath="$PROJECT_DIR$/test_cases/q4/1-expectimax2.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/2-one-ghost-3level.solution" afterPath="$PROJECT_DIR$/test_cases/q4/2-one-ghost-3level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/2-one-ghost-3level.test" afterPath="$PROJECT_DIR$/test_cases/q4/2-one-ghost-3level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/3-one-ghost-4level.solution" afterPath="$PROJECT_DIR$/test_cases/q4/3-one-ghost-4level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/3-one-ghost-4level.test" afterPath="$PROJECT_DIR$/test_cases/q4/3-one-ghost-4level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/4-two-ghosts-3level.solution" afterPath="$PROJECT_DIR$/test_cases/q4/4-two-ghosts-3level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/4-two-ghosts-3level.test" afterPath="$PROJECT_DIR$/test_cases/q4/4-two-ghosts-3level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/5-two-ghosts-4level.solution" afterPath="$PROJECT_DIR$/test_cases/q4/5-two-ghosts-4level.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/5-two-ghosts-4level.test" afterPath="$PROJECT_DIR$/test_cases/q4/5-two-ghosts-4level.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-1a-check-depth-one-ghost.solution" afterPath="$PROJECT_DIR$/test_cases/q4/6-1a-check-depth-one-ghost.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-1a-check-depth-one-ghost.test" afterPath="$PROJECT_DIR$/test_cases/q4/6-1a-check-depth-one-ghost.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-1b-check-depth-one-ghost.solution" afterPath="$PROJECT_DIR$/test_cases/q4/6-1b-check-depth-one-ghost.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-1b-check-depth-one-ghost.test" afterPath="$PROJECT_DIR$/test_cases/q4/6-1b-check-depth-one-ghost.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-1c-check-depth-one-ghost.solution" afterPath="$PROJECT_DIR$/test_cases/q4/6-1c-check-depth-one-ghost.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-1c-check-depth-one-ghost.test" afterPath="$PROJECT_DIR$/test_cases/q4/6-1c-check-depth-one-ghost.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-2a-check-depth-two-ghosts.solution" afterPath="$PROJECT_DIR$/test_cases/q4/6-2a-check-depth-two-ghosts.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-2a-check-depth-two-ghosts.test" afterPath="$PROJECT_DIR$/test_cases/q4/6-2a-check-depth-two-ghosts.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-2b-check-depth-two-ghosts.solution" afterPath="$PROJECT_DIR$/test_cases/q4/6-2b-check-depth-two-ghosts.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-2b-check-depth-two-ghosts.test" afterPath="$PROJECT_DIR$/test_cases/q4/6-2b-check-depth-two-ghosts.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-2c-check-depth-two-ghosts.solution" afterPath="$PROJECT_DIR$/test_cases/q4/6-2c-check-depth-two-ghosts.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/6-2c-check-depth-two-ghosts.test" afterPath="$PROJECT_DIR$/test_cases/q4/6-2c-check-depth-two-ghosts.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/7-pacman-game.solution" afterPath="$PROJECT_DIR$/test_cases/q4/7-pacman-game.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/7-pacman-game.test" afterPath="$PROJECT_DIR$/test_cases/q4/7-pacman-game.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q4/CONFIG" afterPath="$PROJECT_DIR$/test_cases/q4/CONFIG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q5/CONFIG" afterPath="$PROJECT_DIR$/test_cases/q5/CONFIG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q5/grade-agent.solution" afterPath="$PROJECT_DIR$/test_cases/q5/grade-agent.solution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_cases/q5/grade-agent.test" afterPath="$PROJECT_DIR$/test_cases/q5/grade-agent.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/textDisplay.py" afterPath="$PROJECT_DIR$/textDisplay.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util.py" afterPath="$PROJECT_DIR$/util.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pacman.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pacman.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="208" column="23" lean-forward="true" selection-start-line="208" selection-start-column="23" selection-end-line="208" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="236" column="41" lean-forward="false" selection-start-line="236" selection-start-column="41" selection-end-line="236" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiAgents.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multiAgents.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+              <folding>
+                <element signature="e#660#694#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="772">
+              <caret line="217" column="0" lean-forward="true" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/multiAgents.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pacman-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pacman-2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.P3-1">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pacman-2" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pacman-2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pacman-2" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pacman-2" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="P3-1 Reflex Agent" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pacman-2" />
+      <option name="SCRIPT_NAME" value="pacman.py" />
+      <option name="PARAMETERS" value="-p ReflexAgent -l openClassic" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="P3-1" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pacman-2" />
+      <option name="SCRIPT_NAME" value="autograder.py" />
+      <option name="PARAMETERS" value="-q q1 --no-graphics" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.P3-1 Reflex Agent" />
+      <item index="1" class="java.lang.String" itemvalue="Python.P3-1" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da827a13-3e06-4883-b529-9f0a6376d5e3" name="Default" comment="" />
+      <created>1495267381297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1495267381297</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="217" column="0" lean-forward="true" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="236" column="41" lean-forward="false" selection-start-line="236" selection-start-column="41" selection-end-line="236" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pacman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="208" column="23" lean-forward="true" selection-start-line="208" selection-start-column="23" selection-end-line="208" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiAgents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+          <folding>
+            <element signature="e#660#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

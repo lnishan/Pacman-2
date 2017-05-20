@@ -14,7 +14,7 @@
 
 from util import manhattanDistance
 from game import Directions
-import random, util
+import random, util, math
 
 from game import Agent
 
@@ -74,8 +74,46 @@ class ReflexAgent(Agent):
         newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
 
         "[Project 3] YOUR CODE HERE"
-        
-        return successorGameState.getScore()
+
+        # base scores of [Food, Capsule, Ghost]
+        baseScores = [100.0, 150.0, -400.0]
+        decayFacts = [0.25, 0.25, 0.20]     # ghosts decay less fast
+        stopPenalty = -80.0
+
+
+        score = 0.0
+
+        score += currentGameState.hasFood(newPos[0], newPos[1]) * baseScores[0]
+        foodList = successorGameState.getFood().asList()
+        for food in foodList:
+            score += baseScores[0] * math.exp(-1.0 * decayFacts[0] * util.manhattanDistance(newPos, food))
+
+        capsuleListOri = currentGameState.data.capsules
+        for capsule in capsuleListOri:
+            if newPos == capsule:
+                score += baseScores[1]
+        capsuleList = successorGameState.data.capsules
+        for capsule in capsuleList:
+            score += baseScores[1] * math.exp(-1.0 * decayFacts[1] * util.manhattanDistance(newPos, capsule))
+
+
+        curGhostPos = currentGameState.getGhostState(1).getPosition()
+        newGhostPos = successorGameState.getGhostState(1).getPosition()
+
+        if newPos in [curGhostPos, newGhostPos]:
+            score += baseScores[2]
+        else:
+            score += baseScores[2] * math.exp(-1.0 * decayFacts[2] * util.manhattanDistance(newPos, newGhostPos))
+
+
+        if action == Directions.STOP:
+            score += stopPenalty
+
+        # print(score)
+
+        return score
+
+        # return successorGameState.getScore()
 
 def scoreEvaluationFunction(currentGameState):
     """
