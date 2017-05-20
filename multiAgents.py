@@ -276,9 +276,34 @@ def betterEvaluationFunction(currentGameState):
       DESCRIPTION: <write something here so we know what you did>
     """
     
-    "[Project 3] YOUR CODE HERE"    
-    
-    util.raiseNotDefined()
+    "[Project 3] YOUR CODE HERE"
+
+    # base scores of [Food, Capsule, Ghost]
+    baseScores = [-50.0, -100.0, -75.0]
+    decayFacts = [0.1, 0.1, 0.1]  # ghosts decay less fast
+    pos = currentGameState.getPacmanPosition()
+
+    score = currentGameState.getScore() - 200.0 * currentGameState.getNumFood()
+
+    foodList = currentGameState.getFood().asList()
+    for food in foodList:
+        score += baseScores[0] * (1 - math.exp(-1.0 * decayFacts[0] * util.manhattanDistance(pos, food)))
+
+    capsuleList = currentGameState.data.capsules
+    for capsule in capsuleList:
+        score += baseScores[1] * (1 - math.exp(-1.0 * decayFacts[1] * util.manhattanDistance(pos, capsule)))
+
+    ghostList = currentGameState.getGhostPositions()
+    for ghost in ghostList:
+        dist = util.manhattanDistance(pos, ghost)
+        score += baseScores[2] * math.exp(-1.0 * decayFacts[2] * dist)
+        if dist < 2:
+            score -= 1e6
+
+
+    # print(score)
+
+    return score
 
 # Abbreviation
 better = betterEvaluationFunction
